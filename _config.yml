@@ -1,0 +1,32 @@
+
+description: 
+
+logo: /images/logo.png
+
+favicon:  /images/favicon.png
+
+background:
+	cover: /images/background-cover.jpg
+	color: cover-slate
+
+blog_button:
+	description: 访问博客
+	title: 博客
+
+menu: 
+	GitHub: https://github.com/Robin-Lrange
+	目录: /archives
+	关于: /about
+
+social:
+	weibo: 
+  	github: https://github.com/Robin-Lrange
+	jianshu: http://www.jianshu.com/u/d776817c7fc7
+  	stack_overflow:
+  	facebook:
+  	twitter: 
+  	google_plus: 
+	instagram: 
+	rss: /atom.xml
+	copyright: http://choosealicense.online
+

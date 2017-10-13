@@ -1,0 +1,104 @@
+<nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+  	<% if (theme.social.weibo) { %>
+  	<!-- Weibo-->
+		<li class="navigation__item">
+ 	   		<a href="<%= theme.social.weibo%>" title="我的微博" target="_blank">
+   	 			<i class='social fa fa-weibo'></i>
+    			<span class="label">Weibo</span>
+   			</a>
+  		</li>
+	<% } %>
+
+	<% if (theme.social.github) { %>
+	<!-- Github -->
+		<li class="navigation__item">
+	    	<a href="<%= theme.social.github%>" title="我的GitHub" target="_blank">
+	      		<i class='social fa fa-github'></i>
+	      		<span class="label">Github</span>
+	    	</a>
+	  </li>
+	<% } %>
+
+	<% if (theme.social.jianshu) { %>
+  	<!-- jianshu -->
+  		<li class="navigation__item">
+    		<a href="<%= theme.social.jianshu %>" title="简书" target="_blank">
+      			<i class='social fa fa-book'></i>
+      			<span class="label">知乎</span>
+    		</a>
+  		</li>
+	<% } %>
+
+  	<% if (theme.social["google_plus"]) { %>
+  	<!-- Google Plus -->
+	  	<li class="navigation__item">
+	    	<a href="<%= theme.social['google_plus'] %>" title="Google+" target="_blank">
+	      		<i class='social fa fa-google-plus-square'></i>
+	      		<span class="label">Google+</span>
+	    	</a>
+	  	</li>
+	<% } %>
+
+	<% if (theme.social.facebook) { %>
+	<!-- Facebook -->
+	  	<li class="navigation__item">
+		    <a href="<%= theme.social.facebook%>" title="上Facebook找我" target="_blank">
+		     	<i class='social fa fa-facebook'></i>
+		     	<span class="label">Facebook</span>
+		    </a>
+	  	</li>
+	<% } %>
+
+	<% if (theme.social.twitter) { %>
+	<!-- Twitter -->
+		<li class="navigation__item">
+		    <a href="<%= theme.social.twitter%>" title="上Twitter找我" target="_blank">
+		      	<i class='social fa fa-twitter'></i>
+		      	<span class="label">Twitter</span>
+		    </a>
+		</li>
+	<% } %>
+
+	<% if (theme.social.instagram) { %>
+	<!-- instagram -->
+	  	<li class="navigation__item">
+	    	<a href="<%= theme.social.instagram%>" title="上Instagram找我" target="_blank">
+	      		<i class='social fa fa-instagram'></i>
+	      		<span class="label">Twitter</span>
+	    	</a>
+	  	</li>
+	<% } %>
+
+	<% if (config.email) { %>
+	  	<li class="navigation__item">
+	    	<a href="mailto:<%= config.email%>" title="邮件联系我" target="_blank">
+	      		<i class='social fa fa-envelope'></i>
+	      		<span class="label">Email</span>
+	    	</a>
+	  	</li>
+	<% } %>
+
+
+	<% if (theme.social.rss) { %>
+	  <li class="navigation__item">
+	    	<a href="<%- theme.social.rss %>" title="RSS" target="_blank">
+	      		<i class='social fa fa-rss'></i>
+	      		<span class="label">RSS</span>
+	    	</a>
+	  	</li>
+	<% } %>
+
+	 <% if (theme.social.copyright) { %>
+ 	 <!-- Copyright -->
+	 <li class="navigation__item">
+		<a href="<%= theme.social.copyright %>" title="选择版权"  target="_blank">
+			<i class="social fa fa-copyright"></i>
+			<span class="label">版权</span>
+		</a>
+		</li>
+  	<% } %>
+  </ul>
+
+</nav>

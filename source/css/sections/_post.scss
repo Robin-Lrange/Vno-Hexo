@@ -1,0 +1,128 @@
+// ------------------------------
+// SINGLE POST LAYOUT
+// ------------------------------
+
+.post-comments {
+  border-top: 1px solid $gray-light;
+  padding: 60px 0;
+}
+
+// ------------------------------
+// SINGLE POST METAß
+// ------------------------------
+
+.post-meta {
+  margin: 0 0 .4em 0;
+  color: darken($gray, 2%);
+  word-wrap: break-word;
+}
+
+  .post-meta__date {
+    margin-right: .5em;
+  }
+
+  .post-meta__tags {
+    margin-left: .4em;
+  }
+
+  .post-meta__author {
+    margin-left: 1.5em;
+  }
+
+  .post-meta__avatar {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0 .3em -.4em 0;
+    border: none;
+    box-shadow:none;
+  }
+
+// ------------------------------
+// SINGLE POST STYLES
+// ------------------------------
+
+.post {
+
+  img {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: $border-radius;
+    text-align: center;
+    display: block;
+  }
+
+  pre {
+    width: 95%;
+    overflow: auto;
+  }
+
+  hr {
+    display: block;
+    width: 30%;
+    margin: 2em 0;
+    border-top: 1px solid $gray-light;
+  }
+
+}
+
+.BlogAnchor {
+	line-height: 180%;
+	display: -webkit-box !important;
+	display: -webkit-flex !important;
+	display: -moz-flex !important;
+	display: -ms-flexbox !important;
+	display: -ms-flex !important;
+	display: flex !important;
+	border:1px solid #eee;
+}
+
+.BlogAnchor .AnchorContent {
+    padding: 10px 0px;
+}
+
+.BlogAnchor ol{
+  list-style-type: none;
+}
+
+.toc {
+	margin-left: 0px;
+}
+
+.BlogAnchor p {
+	font-size: 18px;
+	color: #15a230;
+	margin: 0px;
+	text-indent: 0em;
+	background: #f4f7f9;	
+}
+
+.BlogAnchor li{
+	text-indent: 20px;
+	font-size: 14px;
+	list-style-type:none !important;
+}
+
+#BlogAnchorToggle {
+	font-size: 17px;
+	font-weight: normal;
+	color: #FFF;
+	display: inline-block;
+	line-height: 20px;
+	background: #5cc26f;
+	font-style: normal;
+	padding: 1px 8px;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding: 8px 20px 8px 20px;
+}
+
+.BlogAnchor a:hover {
+	color: #40AA53;
+}
+.BlogAnchor a {
+	border-bottom:0px !important;
+	text-decoration: none;
+}
+
+
