@@ -2,7 +2,7 @@
 
   <header class="post-header">
     <div class="post-meta" style="font-size:.8em">
-      	<%- partial('_partial/date',{post: page}) %> &#8226; <span class="post-meta__tags tags"><%= page.tags %></span> &#8226; View <span id="busuanzi_value_page_pv"></span> times.
+      	<%- partial('_partial/date',{post: page}) %> &#8226; <span class="post-meta__tags tags"><%- partial('_partial/tags',{post: page}) %></span> &#8226; View <span id="busuanzi_value_page_pv"></span> times.
     </div>
     <h1 class="post-title"><%= page.title%></h1>
   </header>
